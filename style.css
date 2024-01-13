@@ -1,3 +1,13 @@
+body {
+ font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color:red;
+}
+
 .header {
     display: flex;
     font-size: 18px;
@@ -5,31 +15,36 @@
     background: rgb(43, 43, 54);
     justify-content: space-around;
     align-items: center;
+    text-decoration: none;
 }
 .albums {
     display: flex;
     justify-content: space-between;
     padding: 16px;
     gap: 40px;
-    color: red;
+    
 }
 
-.band-into {
+.band-intro {
     display: flex;
     color: white;
     background: rgb(43, 43, 54);
     justify-content: center;
     padding: 30px;
+    flex-wrap: wrap;
     
+}
 
+.intro-container {
+    width: 600px;
+    margin-right: 20px;
+    padding: 20px;
 }
 
 .band-name {
-    
-    
-    flex-direction: column;
-    width: 600px;
-    align-items: center;
+    font-size: 48px; 
+    font-weight: bolder;
+    font-style: italic;
     
 }
 
@@ -41,6 +56,42 @@ button {
     background-color: #1b6ce6;
     color: white;
   
+
+}
+
+.members-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.members-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+ 
+}
+
+.bonnie,
+.potter,
+.jonno,
+.miki {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+}
+
+
+img {
+    width: 200px;
+    height:200px;
+
+}
+
+.band-intro img {
+    width: 600px;
+    height: 250px;
 
 }
 
