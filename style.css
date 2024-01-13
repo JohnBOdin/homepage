@@ -67,7 +67,7 @@ button {
 
 .members-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     flex-wrap: wrap;
  
@@ -93,5 +93,31 @@ img {
     width: 600px;
     height: 250px;
 
+}
+
+.lyrics-container {
+    height: 600px;
+    background: rgb(218, 231, 235);
+    font-size: 48px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lyrics {
+    display: flex;
+    min-width: 300px;
+
+}
+
+.footnote {
+    align-self: self-end;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
